@@ -134,13 +134,6 @@ function show_details(movie_details,arr,movie_title,my_api_key,movie_id){
   
   details = {
     'title':movie_title,
-      //'cast_ids':JSON.stringify(movie_cast.cast_ids),
-      //'cast_names':JSON.stringify(movie_cast.cast_names),
-      //'cast_chars':JSON.stringify(movie_cast.cast_chars),
-      //'cast_profiles':JSON.stringify(movie_cast.cast_profiles),
-      //'cast_bdays':JSON.stringify(ind_cast.cast_bdays),
-      //'cast_bios':JSON.stringify(ind_cast.cast_bios),
-      //'cast_places':JSON.stringify(ind_cast.cast_places),
       'imdb_id':imdb_id,
       'poster':poster,
       'genres':my_genre,
@@ -169,9 +162,6 @@ function show_details(movie_details,arr,movie_title,my_api_key,movie_id){
     }
   });
 }
-
-
-
 
 
 
