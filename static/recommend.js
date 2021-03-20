@@ -66,7 +66,7 @@ function movie_recs(movie_title,movie_id,my_api_key){
     url:"/similarity",
     data:{'name':movie_title},
     success: function(recs){
-      if(recs=="Sorry! The movie you requested is not in our database. Please check the spelling or try with some other movies"){
+      if(recs=="Sorry! The movie you requested is not in our database."){
         $('.fail').css('display','block');
         $('.results').css('display','none');
         $("#loader").delay(500).fadeOut();
